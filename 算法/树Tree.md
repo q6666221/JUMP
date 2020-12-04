@@ -1,4 +1,4 @@
-- 基本概念
+#### 基本概念
 
 什么是树？
 
@@ -15,9 +15,9 @@
 
 - 与图相比，没有环，可认为是没有环的图
 
-## 二叉树遍历
+#### 二叉树遍历
 
-递归树，深度优先
+**递归树，深度优先**
 
 ```Java
 // 前序，根左右
@@ -28,12 +28,6 @@ public void preorder(List<Integer> res, TreeNode root) {
     preorder(res, root.right);
 }
 
-
-
-
-
-
-
 // 中序，左根右
 public void inorder(List<Integer> res, TreeNode root) {
     if (root == null) return;
@@ -42,12 +36,6 @@ public void inorder(List<Integer> res, TreeNode root) {
     inorder(res, root.right);
 }
 
-
-
-
-
-
-
 // 后序，左右根
 public void postorder(List<Integer> res, TreeNode root) {
     if (root == null) return;
@@ -55,56 +43,9 @@ public void postorder(List<Integer> res, TreeNode root) {
     postorder(res, root.right);
     res.add(root.root);
 }
-
-
-
-
-
-
-
-
 ```
 
-层序迭代树，广度优先
-
-```Java
-// 错误示例
-public List<List<Integer>> levelOrder(TreeNode root) {
-    if (root == null) return new ArrayList<>();
-    Queue<TreeNode> queue = new LinkedList<>();
-    List<List<Integer>> res = new ArrayList<>();
-    queue.add(root);
-    while (!queue.isEmpty()) {
-        List<Integer> temp = new ArrayList<>();
-        for (int i = 0; i < queue.size(); i++) { // 错误原因，queue.size(); size在变
-            TreeNode cur = queue.poll();
-            temp.add(cur.val);
-            if (cur.left != null) queue.add(cur.left);
-            if (cur.right != null) queue.add(cur.right);
-        }
-        res.add(temp);
-    }
-    return res;
-}
-
-
-```
-
-层序递归树，广度优先
-
-```Java
-// 层序递归树
-public void levelOrder(List<List<Integer>> res, TreeNode root, int level) {
-    if (root == null) return;
-    if (level >= res.size()) 
-        res.add(new ArrayList<Integer>());
-    res.get(level).add(root.val);
-    levelOrder(res, root.left, level + 1);
-    levelOrder(res, root.right, level + 1);
-} 
-```
-
-迭代树，辅助栈，深度优先
+**迭代树，辅助栈，深度优先**
 
 ```Java
 // 前序，根左右
@@ -151,9 +92,42 @@ public void preorder(List<Integer> res, TreeNode root) {
 } 
 ```
 
-
+**层序递归树，广度优先**
 
 ```Java
+// 层序递归树
+public void levelOrder(List<List<Integer>> res, TreeNode root, int level) {
+    if (root == null) return;
+    if (level >= res.size()) 
+        res.add(new ArrayList<Integer>());
+    res.get(level).add(root.val);
+    levelOrder(res, root.left, level + 1);
+    levelOrder(res, root.right, level + 1);
+} 
+```
+
+**层序迭代树，广度优先**
+
+```Java
+// 错误示例
+public List<List<Integer>> levelOrder(TreeNode root) {
+    if (root == null) return new ArrayList<>();
+    Queue<TreeNode> queue = new LinkedList<>();
+    List<List<Integer>> res = new ArrayList<>();
+    queue.add(root);
+    while (!queue.isEmpty()) {
+        List<Integer> temp = new ArrayList<>();
+        for (int i = 0; i < queue.size(); i++) { // 错误原因，queue.size(); size在变
+            TreeNode cur = queue.poll();
+            temp.add(cur.val);
+            if (cur.left != null) queue.add(cur.left);
+            if (cur.right != null) queue.add(cur.right);
+        }
+        res.add(temp);
+    }
+    return res;
+}
+
 // 层序迭代树，正确示例
 public List<List<Integer>> levelOrder(TreeNode root) {
     if (root == null) return new ArrayList<>();
@@ -175,9 +149,7 @@ public List<List<Integer>> levelOrder(TreeNode root) {
 }
 ```
 
-
-
-## 二叉树最大深度
+#### 二叉树最大深度
 
 自顶向下
 
