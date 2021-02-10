@@ -1,0 +1,1110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Tittle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SimSun-ExtB, 20pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Tittle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Tittle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 21</value>
+  </data>
+  <data name="Tittle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="Tittle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 32</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Tittle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Tittle.Text" xml:space="preserve">
+    <value>作業報告書</value>
+  </data>
+  <data name="Tittle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Tittle.Name" xml:space="preserve">
+    <value>Tittle</value>
+  </data>
+  <data name="&gt;&gt;Tittle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Tittle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Tittle.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="Message.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Message.HeaderText" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Message.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Message.Width" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <metadata name="MessageValue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="MessageValue.HeaderText" xml:space="preserve">
+    <value>MessageList</value>
+  </data>
+  <data name="MessageValue.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="MessageValue.Width" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="MessageView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 124</value>
+  </data>
+  <data name="MessageView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="MessageView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="MessageView.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="MessageView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 108</value>
+  </data>
+  <data name="MessageView.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;MessageView.Name" xml:space="preserve">
+    <value>MessageView</value>
+  </data>
+  <data name="&gt;&gt;MessageView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MessageView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MessageView.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="WorkTable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>ＭＳ Ｐゴシック, 9.75pt</value>
+  </data>
+  <data name="WorkTable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="WorkTable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 240</value>
+  </data>
+  <data name="WorkTable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="WorkTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 18</value>
+  </data>
+  <data name="WorkTable.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="WorkTable.Text" xml:space="preserve">
+    <value>作業報告欄</value>
+  </data>
+  <data name="WorkTable.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;WorkTable.Name" xml:space="preserve">
+    <value>WorkTable</value>
+  </data>
+  <data name="&gt;&gt;WorkTable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WorkTable.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WorkTable.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="WorkText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 996</value>
+  </data>
+  <data name="WorkText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="WorkText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="WorkText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>582, 106</value>
+  </data>
+  <data name="WorkText.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;WorkText.Name" xml:space="preserve">
+    <value>WorkText</value>
+  </data>
+  <data name="&gt;&gt;WorkText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WorkText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WorkText.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="WorkTittle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="WorkTittle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SimSun-ExtB, 12pt</value>
+  </data>
+  <data name="WorkTittle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="WorkTittle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 978</value>
+  </data>
+  <data name="WorkTittle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="WorkTittle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="WorkTittle.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="WorkTittle.Text" xml:space="preserve">
+    <value>[特記事項］</value>
+  </data>
+  <data name="&gt;&gt;WorkTittle.Name" xml:space="preserve">
+    <value>WorkTittle</value>
+  </data>
+  <data name="&gt;&gt;WorkTittle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WorkTittle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WorkTittle.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 21</value>
+  </data>
+  <data name="Label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>（標準版）</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="WorkTimeList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>ＭＳ Ｐゴシック, 9pt</value>
+  </data>
+  <data name="WorkTimeList.Items" xml:space="preserve">
+    <value>0:00</value>
+  </data>
+  <data name="WorkTimeList.Items1" xml:space="preserve">
+    <value>0:15</value>
+  </data>
+  <data name="WorkTimeList.Items2" xml:space="preserve">
+    <value>0:30</value>
+  </data>
+  <data name="WorkTimeList.Items3" xml:space="preserve">
+    <value>0:45</value>
+  </data>
+  <data name="WorkTimeList.Items4" xml:space="preserve">
+    <value>1:00</value>
+  </data>
+  <data name="WorkTimeList.Items5" xml:space="preserve">
+    <value>1:15</value>
+  </data>
+  <data name="WorkTimeList.Items6" xml:space="preserve">
+    <value>1:30</value>
+  </data>
+  <data name="WorkTimeList.Items7" xml:space="preserve">
+    <value>1:45</value>
+  </data>
+  <data name="WorkTimeList.Items8" xml:space="preserve">
+    <value>2:00</value>
+  </data>
+  <data name="WorkTimeList.Items9" xml:space="preserve">
+    <value>2:15</value>
+  </data>
+  <data name="WorkTimeList.Items10" xml:space="preserve">
+    <value>2:30</value>
+  </data>
+  <data name="WorkTimeList.Items11" xml:space="preserve">
+    <value>2:45</value>
+  </data>
+  <data name="WorkTimeList.Items12" xml:space="preserve">
+    <value>3:00</value>
+  </data>
+  <data name="WorkTimeList.Items13" xml:space="preserve">
+    <value>3:15</value>
+  </data>
+  <data name="WorkTimeList.Items14" xml:space="preserve">
+    <value>3:30</value>
+  </data>
+  <data name="WorkTimeList.Items15" xml:space="preserve">
+    <value>3:45</value>
+  </data>
+  <data name="WorkTimeList.Items16" xml:space="preserve">
+    <value>4:00</value>
+  </data>
+  <data name="WorkTimeList.Items17" xml:space="preserve">
+    <value>4:15</value>
+  </data>
+  <data name="WorkTimeList.Items18" xml:space="preserve">
+    <value>4:30</value>
+  </data>
+  <data name="WorkTimeList.Items19" xml:space="preserve">
+    <value>4:45</value>
+  </data>
+  <data name="WorkTimeList.Items20" xml:space="preserve">
+    <value>5:00</value>
+  </data>
+  <data name="WorkTimeList.Items21" xml:space="preserve">
+    <value>5:15</value>
+  </data>
+  <data name="WorkTimeList.Items22" xml:space="preserve">
+    <value>5:30</value>
+  </data>
+  <data name="WorkTimeList.Items23" xml:space="preserve">
+    <value>5:45</value>
+  </data>
+  <data name="WorkTimeList.Items24" xml:space="preserve">
+    <value>6:00</value>
+  </data>
+  <data name="WorkTimeList.Items25" xml:space="preserve">
+    <value>6:15</value>
+  </data>
+  <data name="WorkTimeList.Items26" xml:space="preserve">
+    <value>6:30</value>
+  </data>
+  <data name="WorkTimeList.Items27" xml:space="preserve">
+    <value>6:45</value>
+  </data>
+  <data name="WorkTimeList.Items28" xml:space="preserve">
+    <value>7:00</value>
+  </data>
+  <data name="WorkTimeList.Items29" xml:space="preserve">
+    <value>7:15</value>
+  </data>
+  <data name="WorkTimeList.Items30" xml:space="preserve">
+    <value>7:30</value>
+  </data>
+  <data name="WorkTimeList.Items31" xml:space="preserve">
+    <value>7:45</value>
+  </data>
+  <data name="WorkTimeList.Items32" xml:space="preserve">
+    <value>8:00</value>
+  </data>
+  <data name="WorkTimeList.Items33" xml:space="preserve">
+    <value>8:15</value>
+  </data>
+  <data name="WorkTimeList.Items34" xml:space="preserve">
+    <value>8:30</value>
+  </data>
+  <data name="WorkTimeList.Items35" xml:space="preserve">
+    <value>8:45</value>
+  </data>
+  <data name="WorkTimeList.Items36" xml:space="preserve">
+    <value>9:00</value>
+  </data>
+  <data name="WorkTimeList.Items37" xml:space="preserve">
+    <value>9:15</value>
+  </data>
+  <data name="WorkTimeList.Items38" xml:space="preserve">
+    <value>9:30</value>
+  </data>
+  <data name="WorkTimeList.Items39" xml:space="preserve">
+    <value>9:45</value>
+  </data>
+  <data name="WorkTimeList.Items40" xml:space="preserve">
+    <value>10:00</value>
+  </data>
+  <data name="WorkTimeList.Items41" xml:space="preserve">
+    <value>10:15</value>
+  </data>
+  <data name="WorkTimeList.Items42" xml:space="preserve">
+    <value>10:30</value>
+  </data>
+  <data name="WorkTimeList.Items43" xml:space="preserve">
+    <value>10:45</value>
+  </data>
+  <data name="WorkTimeList.Items44" xml:space="preserve">
+    <value>11:00</value>
+  </data>
+  <data name="WorkTimeList.Items45" xml:space="preserve">
+    <value>11:15</value>
+  </data>
+  <data name="WorkTimeList.Items46" xml:space="preserve">
+    <value>11:30</value>
+  </data>
+  <data name="WorkTimeList.Items47" xml:space="preserve">
+    <value>11:45</value>
+  </data>
+  <data name="WorkTimeList.Items48" xml:space="preserve">
+    <value>12:00</value>
+  </data>
+  <data name="WorkTimeList.Items49" xml:space="preserve">
+    <value>12:15</value>
+  </data>
+  <data name="WorkTimeList.Items50" xml:space="preserve">
+    <value>12:30</value>
+  </data>
+  <data name="WorkTimeList.Items51" xml:space="preserve">
+    <value>12:45</value>
+  </data>
+  <data name="WorkTimeList.Items52" xml:space="preserve">
+    <value>13:00</value>
+  </data>
+  <data name="WorkTimeList.Items53" xml:space="preserve">
+    <value>13:15</value>
+  </data>
+  <data name="WorkTimeList.Items54" xml:space="preserve">
+    <value>13:30</value>
+  </data>
+  <data name="WorkTimeList.Items55" xml:space="preserve">
+    <value>13:45</value>
+  </data>
+  <data name="WorkTimeList.Items56" xml:space="preserve">
+    <value>14:00</value>
+  </data>
+  <data name="WorkTimeList.Items57" xml:space="preserve">
+    <value>14:15</value>
+  </data>
+  <data name="WorkTimeList.Items58" xml:space="preserve">
+    <value>14:30</value>
+  </data>
+  <data name="WorkTimeList.Items59" xml:space="preserve">
+    <value>14:45</value>
+  </data>
+  <data name="WorkTimeList.Items60" xml:space="preserve">
+    <value>15:00</value>
+  </data>
+  <data name="WorkTimeList.Items61" xml:space="preserve">
+    <value>15:15</value>
+  </data>
+  <data name="WorkTimeList.Items62" xml:space="preserve">
+    <value>15:30</value>
+  </data>
+  <data name="WorkTimeList.Items63" xml:space="preserve">
+    <value>15:45</value>
+  </data>
+  <data name="WorkTimeList.Items64" xml:space="preserve">
+    <value>16:00</value>
+  </data>
+  <data name="WorkTimeList.Items65" xml:space="preserve">
+    <value>16:15</value>
+  </data>
+  <data name="WorkTimeList.Items66" xml:space="preserve">
+    <value>16:30</value>
+  </data>
+  <data name="WorkTimeList.Items67" xml:space="preserve">
+    <value>16:45</value>
+  </data>
+  <data name="WorkTimeList.Items68" xml:space="preserve">
+    <value>17:00</value>
+  </data>
+  <data name="WorkTimeList.Items69" xml:space="preserve">
+    <value>17:15</value>
+  </data>
+  <data name="WorkTimeList.Items70" xml:space="preserve">
+    <value>17:30</value>
+  </data>
+  <data name="WorkTimeList.Items71" xml:space="preserve">
+    <value>17:45</value>
+  </data>
+  <data name="WorkTimeList.Items72" xml:space="preserve">
+    <value>18:00</value>
+  </data>
+  <data name="WorkTimeList.Items73" xml:space="preserve">
+    <value>18:15</value>
+  </data>
+  <data name="WorkTimeList.Items74" xml:space="preserve">
+    <value>18:30</value>
+  </data>
+  <data name="WorkTimeList.Items75" xml:space="preserve">
+    <value>18:45</value>
+  </data>
+  <data name="WorkTimeList.Items76" xml:space="preserve">
+    <value>19:00</value>
+  </data>
+  <data name="WorkTimeList.Items77" xml:space="preserve">
+    <value>19:15</value>
+  </data>
+  <data name="WorkTimeList.Items78" xml:space="preserve">
+    <value>19:30</value>
+  </data>
+  <data name="WorkTimeList.Items79" xml:space="preserve">
+    <value>19:45</value>
+  </data>
+  <data name="WorkTimeList.Items80" xml:space="preserve">
+    <value>20:00</value>
+  </data>
+  <data name="WorkTimeList.Items81" xml:space="preserve">
+    <value>20:15</value>
+  </data>
+  <data name="WorkTimeList.Items82" xml:space="preserve">
+    <value>20:30</value>
+  </data>
+  <data name="WorkTimeList.Items83" xml:space="preserve">
+    <value>20:45</value>
+  </data>
+  <data name="WorkTimeList.Items84" xml:space="preserve">
+    <value>21:00</value>
+  </data>
+  <data name="WorkTimeList.Items85" xml:space="preserve">
+    <value>21:15</value>
+  </data>
+  <data name="WorkTimeList.Items86" xml:space="preserve">
+    <value>21:30</value>
+  </data>
+  <data name="WorkTimeList.Items87" xml:space="preserve">
+    <value>21:45</value>
+  </data>
+  <data name="WorkTimeList.Items88" xml:space="preserve">
+    <value>22:00</value>
+  </data>
+  <data name="WorkTimeList.Items89" xml:space="preserve">
+    <value>22:15</value>
+  </data>
+  <data name="WorkTimeList.Items90" xml:space="preserve">
+    <value>22:30</value>
+  </data>
+  <data name="WorkTimeList.Items91" xml:space="preserve">
+    <value>22:45</value>
+  </data>
+  <data name="WorkTimeList.Items92" xml:space="preserve">
+    <value>23:00</value>
+  </data>
+  <data name="WorkTimeList.Items93" xml:space="preserve">
+    <value>23:15</value>
+  </data>
+  <data name="WorkTimeList.Items94" xml:space="preserve">
+    <value>23:30</value>
+  </data>
+  <data name="WorkTimeList.Items95" xml:space="preserve">
+    <value>23:45</value>
+  </data>
+  <data name="WorkTimeList.Items96" xml:space="preserve">
+    <value>24:00</value>
+  </data>
+  <data name="WorkTimeList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 239</value>
+  </data>
+  <data name="WorkTimeList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="WorkTimeList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 20</value>
+  </data>
+  <data name="WorkTimeList.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="WorkTimeList.Text" xml:space="preserve">
+    <value>通勤時間</value>
+  </data>
+  <data name="&gt;&gt;WorkTimeList.Name" xml:space="preserve">
+    <value>WorkTimeList</value>
+  </data>
+  <data name="&gt;&gt;WorkTimeList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WorkTimeList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WorkTimeList.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="SaveButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>ＭＳ Ｐゴシック, 9.75pt</value>
+  </data>
+  <data name="SaveButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SaveButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>571, 239</value>
+  </data>
+  <data name="SaveButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="SaveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="SaveButton.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="SaveButton.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="&gt;&gt;SaveButton.Name" xml:space="preserve">
+    <value>SaveButton</value>
+  </data>
+  <data name="&gt;&gt;SaveButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SaveButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="dep_manager.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dep_manager.HeaderText" xml:space="preserve">
+    <value>部長</value>
+  </data>
+  <data name="dep_manager.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dep_manager.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <metadata name="off_manager.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="off_manager.HeaderText" xml:space="preserve">
+    <value>課長</value>
+  </data>
+  <data name="off_manager.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="off_manager.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <metadata name="pro_manager.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="pro_manager.HeaderText" xml:space="preserve">
+    <value>プロジェクト管理者</value>
+  </data>
+  <data name="pro_manager.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="pro_manager.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="SealView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 121</value>
+  </data>
+  <data name="SealView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="SealView.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="SealView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 113</value>
+  </data>
+  <data name="SealView.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;SealView.Name" xml:space="preserve">
+    <value>SealView</value>
+  </data>
+  <data name="&gt;&gt;SealView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SealView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SealView.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Year.Items" xml:space="preserve">
+    <value>2020</value>
+  </data>
+  <data name="Year.Items1" xml:space="preserve">
+    <value>2021</value>
+  </data>
+  <data name="Year.Items2" xml:space="preserve">
+    <value>2022</value>
+  </data>
+  <data name="Year.Items3" xml:space="preserve">
+    <value>2023</value>
+  </data>
+  <data name="Year.Items4" xml:space="preserve">
+    <value>2024</value>
+  </data>
+  <data name="Year.Items5" xml:space="preserve">
+    <value>2025</value>
+  </data>
+  <data name="Year.Items6" xml:space="preserve">
+    <value>2026</value>
+  </data>
+  <data name="Year.Items7" xml:space="preserve">
+    <value>2027</value>
+  </data>
+  <data name="Year.Items8" xml:space="preserve">
+    <value>2028</value>
+  </data>
+  <data name="Year.Items9" xml:space="preserve">
+    <value>2029</value>
+  </data>
+  <data name="Year.Items10" xml:space="preserve">
+    <value>2030</value>
+  </data>
+  <data name="Year.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 75</value>
+  </data>
+  <data name="Year.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="Year.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Year.Name" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="&gt;&gt;Year.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Year.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Year.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Mon.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Mon.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Mon.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Mon.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Mon.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Mon.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Mon.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Mon.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Mon.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Mon.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Mon.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Mon.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Mon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 75</value>
+  </data>
+  <data name="Mon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="Mon.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;Mon.Name" xml:space="preserve">
+    <value>Mon</value>
+  </data>
+  <data name="&gt;&gt;Mon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Mon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Mon.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DataGridViewImageColumn1.HeaderText" xml:space="preserve">
+    <value>部長</value>
+  </data>
+  <data name="DataGridViewImageColumn1.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="DataGridViewImageColumn1.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="DataGridViewImageColumn2.HeaderText" xml:space="preserve">
+    <value>課長</value>
+  </data>
+  <data name="DataGridViewImageColumn2.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="DataGridViewImageColumn2.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="DataGridViewImageColumn3.HeaderText" xml:space="preserve">
+    <value>プロジェクト管理者</value>
+  </data>
+  <data name="DataGridViewImageColumn3.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="DataGridViewImageColumn3.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <metadata name="day_week.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="day_week.HeaderText" xml:space="preserve">
+    <value>日付</value>
+  </data>
+  <data name="day_week.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="day_week.Width" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <metadata name="week.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="week.HeaderText" xml:space="preserve">
+    <value>曜日</value>
+  </data>
+  <data name="week.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="week.Width" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <metadata name="Start_Time.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Start_Time.HeaderText" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="Start_Time.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Start_Time.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <metadata name="End_Time.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="End_Time.HeaderText" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="End_Time.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="End_Time.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <metadata name="time.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="time.HeaderText" xml:space="preserve">
+    <value>工数</value>
+  </data>
+  <data name="time.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="time.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <metadata name="content.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="content.HeaderText" xml:space="preserve">
+    <value>作業内容</value>
+  </data>
+  <data name="content.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="content.Width" type="System.Int32, mscorlib">
+    <value>300</value>
+  </data>
+  <data name="ReportView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 263</value>
+  </data>
+  <data name="ReportView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="ReportView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="ReportView.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ReportView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>581, 710</value>
+  </data>
+  <data name="ReportView.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;ReportView.Name" xml:space="preserve">
+    <value>ReportView</value>
+  </data>
+  <data name="&gt;&gt;ReportView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReportView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ReportView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>748, 705</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>作業報告書</value>
+  </data>
+  <data name="&gt;&gt;Message.Name" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="&gt;&gt;Message.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MessageValue.Name" xml:space="preserve">
+    <value>MessageValue</value>
+  </data>
+  <data name="&gt;&gt;MessageValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dep_manager.Name" xml:space="preserve">
+    <value>dep_manager</value>
+  </data>
+  <data name="&gt;&gt;dep_manager.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;off_manager.Name" xml:space="preserve">
+    <value>off_manager</value>
+  </data>
+  <data name="&gt;&gt;off_manager.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pro_manager.Name" xml:space="preserve">
+    <value>pro_manager</value>
+  </data>
+  <data name="&gt;&gt;pro_manager.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewImageColumn1.Name" xml:space="preserve">
+    <value>DataGridViewImageColumn1</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewImageColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewImageColumn2.Name" xml:space="preserve">
+    <value>DataGridViewImageColumn2</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewImageColumn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewImageColumn3.Name" xml:space="preserve">
+    <value>DataGridViewImageColumn3</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewImageColumn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;day_week.Name" xml:space="preserve">
+    <value>day_week</value>
+  </data>
+  <data name="&gt;&gt;day_week.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;week.Name" xml:space="preserve">
+    <value>week</value>
+  </data>
+  <data name="&gt;&gt;week.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Start_Time.Name" xml:space="preserve">
+    <value>Start_Time</value>
+  </data>
+  <data name="&gt;&gt;Start_Time.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;End_Time.Name" xml:space="preserve">
+    <value>End_Time</value>
+  </data>
+  <data name="&gt;&gt;End_Time.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;time.Name" xml:space="preserve">
+    <value>time</value>
+  </data>
+  <data name="&gt;&gt;time.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;content.Name" xml:space="preserve">
+    <value>content</value>
+  </data>
+  <data name="&gt;&gt;content.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ReportInput</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

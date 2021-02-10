@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<source>
+	<path>
+		<name>Server=192.168.11.39;Database=Newelite;Uid=sa;Pwd=root;Timeout=5</name>
+	</path>
+</source>
+
+
+

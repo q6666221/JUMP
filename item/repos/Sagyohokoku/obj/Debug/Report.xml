@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Report
+</name>
+</assembly>
+<members>
+<member name="T:Report.My.Resources.Resources">
+<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+<member name="P:Report.My.Resources.Resources.ResourceManager">
+<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member>
+<member name="P:Report.My.Resources.Resources.Culture">
+<summary>
+  すべてについて、現在のスレッドの CurrentUICulture プロパティをオーバーライドします
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member>
+<member name="T:Report.Reports">
+ <summary>
+ 作業報告システムのホームページ
+ </summary>
+</member>
+<member name="M:Report.Reports.Form1_Load(System.Object,System.EventArgs)">
+ <summary>
+ 作業報告ホームページのイニシャライズ
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Report.Reports.MinButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ フォームの最小化
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Report.Reports.MaxButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ フォームの最大化・元に戻す
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Report.Reports.CloseButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ フォームを閉じる
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>

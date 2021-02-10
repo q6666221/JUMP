@@ -1,0 +1,8 @@
+Who:誰か
+What：何を
+When：いつか
+Where：どこで
+Why：なぜ
+How：どのように
+How many：どれくらい
+How much：いくらで

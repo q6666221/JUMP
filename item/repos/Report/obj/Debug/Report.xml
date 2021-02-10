@@ -1,0 +1,116 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Report
+</name>
+</assembly>
+<members>
+<member name="T:Report.My.Resources.Resources">
+<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+<member name="P:Report.My.Resources.Resources.ResourceManager">
+<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member>
+<member name="P:Report.My.Resources.Resources.Culture">
+<summary>
+  すべてについて、現在のスレッドの CurrentUICulture プロパティをオーバーライドします
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member>
+<member name="P:Report.My.Resources.Resources.tyou">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="T:Report.ReportShow">
+ <summary>
+ 
+ </summary>
+</member>
+<member name="T:Report.NeweliteDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="M:Report.ReportInput.Reprot_load(System.Object,System.EventArgs)">
+ <summary>
+ 作業報告書のデータの初期化
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Report.ReportInput.MessageViewInit">
+ <summary>
+ MessageViewの初期化
+ </summary>
+</member>
+<member name="M:Report.ReportInput.ReportViewWorkTime(System.Object,System.EventArgs)">
+ <summary>
+ ReportView中のworktimeを設定
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Report.ReportInput.WorkTimeListChanged(System.Object,System.EventArgs)">
+ <summary>
+ 通勤時間の初期化
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Report.ReportInput.GetSumTime">
+ <summary>
+ 総時間を取り出す
+ </summary>
+</member>
+<member name="M:Report.ReportInput.SaveButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ メッセージを登録する
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Report.ReportInput.UpdateReports(System.Data.DataTable,System.Int32,System.String)">
+ <summary>
+ Reports表に対して更新する
+ </summary>
+ <param name="table"></param>
+ <param name="e_id"></param>
+ <param name="r_date"></param>
+</member>
+<member name="M:Report.ReportInput.UpdateReportsDetail(System.String)">
+ <summary>
+ ReportsDetail表に対して更新する
+ </summary>
+ <param name="r_id"></param>
+</member>
+<member name="M:Report.Tools.GetWeekOfDay(System.DateTime)">
+ <summary>
+ 
+ </summary>
+ <param name="now"></param>
+ <returns></returns>
+</member>
+<member name="M:Report.Tools.GetData(System.String,System.Data.SqlClient.SqlConnection,System.String[])">
+ <summary>
+ データベースからデータを取り出す
+ </summary>
+ <param name="sql"></param>
+ <param name="args"></param>
+ <returns></returns>
+</member>
+<member name="M:Report.Tools.SetData(System.String,System.Data.SqlClient.SqlConnection,System.String[])">
+ <summary>
+ データベースにデータを書き入れ
+ </summary>
+ <param name="sql"></param>
+ <param name="args"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>

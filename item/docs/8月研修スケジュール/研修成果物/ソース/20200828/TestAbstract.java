@@ -1,0 +1,11 @@
+
+public abstract class TestAbstract {
+	
+	
+	
+	
+	
+	
+
+	
+}

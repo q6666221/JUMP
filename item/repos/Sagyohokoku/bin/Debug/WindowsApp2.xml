@@ -1,0 +1,459 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WindowsApp2
+</name>
+</assembly>
+<members>
+<member name="T:WindowsApp2.My.Resources.Resources">
+<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+<member name="P:WindowsApp2.My.Resources.Resources.ResourceManager">
+<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member>
+<member name="P:WindowsApp2.My.Resources.Resources.Culture">
+<summary>
+  すべてについて、現在のスレッドの CurrentUICulture プロパティをオーバーライドします
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member>
+<member name="P:WindowsApp2.My.Resources.Resources.tyou">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="M:WindowsApp2.GetHoliday.RestStartTime">
+ <summary>
+ 休憩開始時間を設定します
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp2.GetHoliday.RestEndTime">
+ <summary>
+ 休憩終了時間を設定します
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp2.GetHoliday.GetSiteData">
+ <summary>
+ 現場のデータを取得します
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp2.GetHoliday.GetSiteRestTime(System.Int32)">
+ <summary>
+ 現場によって休憩時間を取得します
+ </summary>
+ <param name="u_id"></param>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp2.GetHoliday.SetSiteRestTime(System.String[])">
+ <summary>
+ 休憩時間がデータベースに入力します
+ </summary>
+ <param name="param"></param>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp2.GetHoliday.GetHoliday(System.DateTime)">
+ <summary>
+ 年間休日を取得します
+ </summary>
+ <param name="dates"></param>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp2.GetHoliday.AddHoliday(System.DateTime)">
+ <summary>
+ 祝日以外の休日を設定します
+ </summary>
+ <param name="dates"></param>
+</member>
+<member name="M:WindowsApp2.GetHoliday.DeleteHoliday(System.DateTime)">
+ <summary>
+ 休日をキャンセルします
+ </summary>
+ <param name="dates"></param>
+</member>
+<member name="M:WindowsApp2.GetHoliday.DeleteHolidays(System.String)">
+ <summary>
+ 祝日以外の休日を削除します
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp2.GetHoliday.AddHolidays(System.String,System.String)">
+ <summary>
+ 祝日以外の休日を追加します
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp2.GetHoliday.GetOtherHolidays(System.String)">
+ <summary>
+ 年月によってデータベースから祝日と休日を取得します
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp2.GetHoliday.GetAllHolidays(System.String)">
+ <summary>
+ 年月によってデータベースから祝日を取得します
+ </summary>
+ <param name="dates"></param>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp2.GetHoliday.GetHolidaysCount(System.String)">
+ <summary>
+ 年によってデータベースから一年中の祝日を取得します
+ </summary>
+ <param name="dates"></param>
+ <returns></returns>
+</member>
+<member name="F:WindowsApp2.Login.conn">
+ <summary>
+ データベースの接続
+ </summary>
+</member>
+<member name="M:WindowsApp2.Login.Init">
+ <summary>
+ データベースへの接続の初期化
+ </summary>
+</member>
+<member name="M:WindowsApp2.Login.Login_Load(System.Object,System.EventArgs)">
+ <summary>
+ ログインのロード
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Login.Login_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ エンターキーをクリックした場合、ログイン
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Login.LoginButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ ログイン
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Login.CloseButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ フォームを閉じる
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Login.MessageInit">
+ <summary>
+ インフォメーションの初期化
+ </summary>
+</member>
+<member name="M:WindowsApp2.Login.Company_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ 所属部署の取得
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Login.Department_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ 所属会社の取得
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="T:WindowsApp2.Home">
+ <summary>
+ 作業報告システムのホームページ
+ </summary>
+</member>
+<member name="F:WindowsApp2.Home.employee">
+ <summary>
+ ログインしたユーザー
+ </summary>
+</member>
+<member name="F:WindowsApp2.Home.seal">
+ <summary>
+ デフォルト印鑑イメージ
+ </summary>
+</member>
+<member name="F:WindowsApp2.Home.enableFlag">
+ <summary>
+ 修正可能フラグ
+ </summary>
+</member>
+<member name="M:WindowsApp2.Home.#ctor(WindowsApp2.Employees)">
+ <summary>
+ 引数あるコンストラクタ
+ </summary>
+ <param name="employee"></param>
+</member>
+<member name="M:WindowsApp2.Home.Form1_Load(System.Object,System.EventArgs)">
+ <summary>
+ 作業報告ホームページのイニシャライズ
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Home.Seal_Init">
+ <summary>
+ 印鑑の初期化
+ </summary>
+</member>
+<member name="M:WindowsApp2.Home.ReportsBoxInit(System.Object,System.EventArgs)">
+ <summary>
+ 作業報告書の初期化
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Home.ShowProductCtl">
+ <summary>
+ 作業報告作成の表示
+ </summary>
+</member>
+<member name="M:WindowsApp2.Home.ShowConfirmCtl">
+ <summary>
+ 作業報告承認の表示
+ </summary>
+</member>
+<member name="M:WindowsApp2.Home.ShowManageCtl">
+ <summary>
+ マスタメンテナンスの表示
+ </summary>
+</member>
+<member name="M:WindowsApp2.Home.MinButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ フォームの最小化
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Home.MaxButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ フォームの最大化・元に戻す
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Home.CloseButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ フォームを閉じる
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Home.Insert_Click(System.Object,System.EventArgs)">
+ <summary>
+ 作業報告の追加
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Home.Update_Click(System.Object,System.EventArgs)">
+ <summary>
+ 作業報告の詳細内容の表示
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Home.Color_MouseHover(System.Object,System.EventArgs)">
+ <summary>
+ 作業報告のリストのカラー変換
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Home.Color_MouseLeave(System.Object,System.EventArgs)">
+ <summary>
+ 作業報告のリストのカラーを戻る
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Home.ProRepBox_Init">
+ <summary>
+ 作業報告作成リストの初期化
+ </summary>
+ <returns>リストの行数</returns>
+</member>
+<member name="M:WindowsApp2.Home.ConRepBox_Init">
+ <summary>
+ 作業報告承認リストの初期化
+ </summary>
+ <returns>リストの行数</returns>
+</member>
+<member name="M:WindowsApp2.Home.ShowReport(System.Windows.Forms.Control)">
+ <summary>
+ 作業報告の表示
+ </summary>
+ <param name="ctl">選択された作業報告</param>
+</member>
+<member name="M:WindowsApp2.Home.Time_TextChange(System.Object,System.EventArgs)">
+ <summary>
+ 入力内容変換
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Home.WorkTime_Change">
+ <summary>
+ 毎日の勤務時間の計算
+ </summary>
+</member>
+<member name="M:WindowsApp2.Home.GetSumTime">
+ <summary>
+ 総時間を取り出す
+ </summary>
+</member>
+<member name="M:WindowsApp2.Home.Min_Change(System.Int32)">
+ <summary>
+ 分の自動的な変換
+ </summary>
+ <param name="min">分</param>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp2.Home.UpdateReports(System.Int32)">
+<summary>
+ Reports表に対して更新する
+ </summary>
+ <param name="r_id"></param>
+</member>
+<member name="M:WindowsApp2.Home.UpdateReportsDetail(System.String)">
+ <summary>
+ ReportsDetail表に対して更新する
+ </summary>
+ <param name="r_id"></param>
+</member>
+<member name="M:WindowsApp2.Home.SaveButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ メッセージを登録する
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Home.Excel_Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ EXCEL作成ボタンを押すと作成報告書をexcelに出力します
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Home.Insert_Reports_Detail_Excel">
+ <summary>
+ 報告詳細がEXCELに入力します
+ </summary>
+</member>
+<member name="M:WindowsApp2.Home.RestTime_Load(System.Object,System.EventArgs)">
+ <summary>
+ 現場の休憩時間を初期化します
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Home.Date_View">
+ <summary>
+ 年間休日のカレンダーを取得します
+ </summary>
+</member>
+<member name="M:WindowsApp2.Home.Calendar_View_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ （＜）ボタンが押すと先月の日付を表示します
+ （＞）ボタンが押すと来月の日付を表示します
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Home.Calendar_View_CellDoubleClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ 日付がダブルクリックしたあと休日となります
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp2.Home.Rest_Time_Load(System.Int32)">
+ <summary>
+ 現場によって休憩時間設定します
+ </summary>
+ <param name="index"></param>
+</member>
+<member name="T:WindowsApp2.Employees">
+ <summary>
+ 社員情報
+ </summary>
+</member>
+<member name="F:WindowsApp2.Employees.e_name">
+ <summary>
+ 氏名
+ </summary>
+</member>
+<member name="F:WindowsApp2.Employees.e_id">
+ <summary>
+ 社員主キー
+ </summary>
+</member>
+<member name="F:WindowsApp2.Employees.u_id">
+ <summary>
+ 現場主キー
+ </summary>
+</member>
+<member name="F:WindowsApp2.Employees.d_id">
+ <summary>
+ 所属部署主キー
+ </summary>
+</member>
+<member name="F:WindowsApp2.Employees.m_id">
+ <summary>
+ リーダー主キー
+ </summary>
+</member>
+<member name="F:WindowsApp2.Employees.p_id">
+ <summary>
+ 職位主キー
+ </summary>
+</member>
+<member name="F:WindowsApp2.Employees.seal_local">
+ <summary>
+ 印鑑イメージのパス
+ </summary>
+</member>
+<member name="F:WindowsApp2.Employees.create_time">
+ <summary>
+ 入社時間
+ </summary>
+</member>
+<member name="T:WindowsApp2.Tools">
+ <summary>
+ 時間計算とデータの処理
+ </summary>
+</member>
+<member name="M:WindowsApp2.Tools.GetWeekOfDay(System.DateTime)">
+ <summary>
+ 日付の曜日の判断
+ </summary>
+ <param name="now">判断される日付</param>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp2.Tools.GetData(System.Data.SqlClient.SqlConnection,System.String,System.String[])">
+ <summary>
+ データベースからデータを取り出す
+ </summary>
+ <param name="Sql"></param>
+ <param name="args"></param>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp2.Tools.SetData(System.Data.SqlClient.SqlConnection,System.String,System.String[])">
+ <summary>
+ データベースにデータを書き入れ
+ </summary>
+ <param name="Sql"></param>
+ <param name="args"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>
