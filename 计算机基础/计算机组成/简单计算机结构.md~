@@ -31,46 +31,11 @@
 4. MDR在访存时用于存放 "对存储单元读/写的数据"
 5. 指令译码部件对IR中的指令进行译码，以确定IR中存放的时哪一条指令
 6. 控制电路产生控制信号，在时序脉冲的同步下控制各个部件的动作<br/>
-**注**<br/>
+        **注**<br/>
 IR：指令寄存器 Instruction Register<br/>
 PC：Program Counter
 #### 运算器
+### 经典南北桥结构的演化
+#### （一）
 ### 计算机执行指令的流程
-```flow
-st=>start: 开始
-ip=>inputoutput: ADD RO, [6]
-cc1=>operation: PC
-cc2=>operation: CC的MAR
-cc3=>operation: 控制电路
-cc4=>operation: 指令译码
-pp1=>operation: 控制总线
-pp2=>operation: 地址总线
-pp3=>operation: 数据地址
-m1=>operation: 控制逻辑
-m2=>operation: 地址编译器
-m3=>operation: M的MAR
-m4=>operation: M的MDR
-m5=>operation: 存储单元
-ca1=>operation: R0通用寄存器
-ca2=>operation: Y寄存器
-ca3=>operation: X寄存器
-ca4=>operation: Z寄存器
-ca5=>operation: F寄存器
-op=>inputoutput: 输出结果
-op=>end: 结束
-
-st->ip->op->end
-```
-```flow
-st=>start: 开始
-ipt=>inputoutput: 输入一个x
-op=>operation: 处理加工x+1
-cond=>condition: 溢出（是或否？）
-sub=>subroutine: 子流程
-io=>inputoutput: 输出x
-ed=>end: 结束
-
-st->ipt->op->cond
-cond(yes)->io->ed
-cond(no)->sub->io->ed
-```
+略，稍后补充流程图
